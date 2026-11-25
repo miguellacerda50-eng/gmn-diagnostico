@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Diagnóstico de Posicionamento Local — Google Meu Negócio</title>
+  <style>
+    @page { size: A4 portrait; margin: 15mm 15mm 15mm 15mm; }
+    * { box-sizing: border-box; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #1e293b;
+      margin: 0;
+      padding: 0;
+      font-size: 13px;
+      line-height: 1.45;
+      background: #fff;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 2px solid #0f172a;
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+    }
+    .brand { font-size: 16px; font-weight: 800; color: #0f172a; letter-spacing: -0.5px; }
+    .brand span { color: #2563eb; }
+    .doc-meta { text-align: right; font-size: 11px; color: #64748b; }
+    
+    .hero-box {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 14px 18px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+    .hero-info h1 { margin: 0 0 4px 0; font-size: 18px; color: #0f172a; }
+    .hero-info p { margin: 0; color: #475569; font-size: 12px; }
+    .score-badge {
+      text-align: center;
+      background: #0f172a;
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 8px;
+      min-width: 90px;
+    }
+    .score-num { font-size: 24px; font-weight: 800; line-height: 1; color: #f59e0b; }
+    .score-lbl { font-size: 9px; text-transform: uppercase; letter-spacing: 0.5px; margin-top: 4px; color: #cbd5e1; }
+    
+    .section-title {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      font-weight: 700;
+      color: #0f172a;
+      margin: 14px 0 8px 0;
+      border-left: 3px solid #2563eb;
+      padding-left: 8px;
+    }
+    
+    .strengths-box {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 6px;
+      padding: 10px 14px;
+      margin-bottom: 14px;
+      font-size: 12px;
+      color: #166534;
+    }
+    .strengths-box ul { margin: 4px 0 0 0; padding-left: 18px; }
+    
+    .gargalos-grid { display: flex; flex-direction: column; gap: 8px; margin-bottom: 14px; }
+    .gargalo-card {
+      border: 1px solid #fee2e2;
+      background: #fff5f5;
+      border-radius: 6px;
+      padding: 10px 14px;
+    }
+    .gargalo-header { display: flex; justify-content: space-between; font-weight: 700; color: #991b1b; font-size: 12px; margin-bottom: 3px; }
+    .gargalo-desc { font-size: 12px; color: #334155; margin: 0; }
+    
+    .plan-box {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 6px;
+      padding: 10px 14px;
+      font-size: 12px;
+      color: #1e40af;
+      margin-bottom: 16px;
+    }
+    .plan-box ol { margin: 4px 0 0 0; padding-left: 18px; }
+    .plan-box li { margin-bottom: 3px; }
+    
+    .footer {
+      border-top: 1px solid #e2e8f0;
+      padding-top: 8px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 10px;
+      color: #94a3b8;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="brand">AUDITORIA <span>SEO LOCAL</span></div>
+    <div class="doc-meta">
+      <div>Relatório de Posicionamento Google</div>
+      <div>Data da Análise: 24/11/2026</div>
+    </div>
+  </div>
+
+  <div class="hero-box">
+    <div class="hero-info">
+      <h1>Clínica Odonto Estética</h1>
+      <p>Segmento: <strong>Dentista / Odontologia</strong> &bull; Localização: <strong>Cambuí, Campinas - SP</strong></p>
+    </div>
+    <div class="score-badge">
+      <div class="score-num">6.0</div>
+      <div class="score-lbl">Saúde da Ficha</div>
+    </div>
+  </div>
+
+  <div class="section-title">1. O Que Já Está Funcionando Bem</div>
+  <div class="strengths-box">
+    <ul>
+      <li>Excelente reputação com os clientes atuais: nota média de 4.8 estrelas, demonstrando que quem consome o seu serviço realmente aprova a qualidade.</li>
+<li>Horários de atendimento visíveis, permitindo que quem encontra o perfil saiba quando você está aberto.</li>
+    </ul>
+  </div>
+
+  <div class="section-title">2. Os Três Gargalos Que Mais Custam Clientes Hoje</div>
+  <div class="gargalos-grid">
+    
+    <div class="gargalo-card">
+      <div class="gargalo-header">
+        <span>⚠️ Volume de avaliações abaixo dos líderes do bairro (22 avaliações / 4.8★)</span>
+      </div>
+      <p class="gargalo-desc">Quando um morador busca no celular por "Dentista / Odontologia perto de mim", o Google coloca no topo as fichas com mais de 30 avaliações recentes. Com menos avaliações, potenciais clientes novos ligam primeiro para os seus concorrentes vizinhos.</p>
+    </div>
+  
+
+    <div class="gargalo-card">
+      <div class="gargalo-header">
+        <span>⚠️ Avaliações de clientes deixadas sem resposta</span>
+      </div>
+      <p class="gargalo-desc">O algoritmo do Google prioriza ativamente perfis onde o proprietário interage com os clientes. Deixar elogios e críticas no vácuo sinaliza desinteresse ao robô de buscas e reduz a sua taxa de conversão em novos contatos.</p>
+    </div>
+  
+
+    <div class="gargalo-card">
+      <div class="gargalo-header">
+        <span>⚠️ Galeria visual sem fotos comerciais e recentes</span>
+      </div>
+      <p class="gargalo-desc">Empresas com fotos profissionais da fachada, equipe e ambiente recebem até 42% mais solicitações de rotas no mapa. Perfis com fotos antigas ou apenas imagens do Street View passam a impressão de empresa fechada ou desatualizada.</p>
+    </div>
+  
+  </div>
+
+  <div class="section-title">3. Plano de Ação Rápido (Próximos 15 Dias)</div>
+  <div class="plan-box">
+    <ol>
+      <li>Etapa 1 (Dias 1 a 3): Blindagem e Regularização — Ajustar categoria primária, secundárias e horários exatos de atendimento.</li>
+<li>Etapa 2 (Dias 4 a 8): Impacto Visual e Conversão — Inserir fotos profissionais de fachada/ambiente e vincular canal direto de agendamento por WhatsApp.</li>
+<li>Etapa 3 (Dias 9 a 15): Aceleração de Reputação — Responder todas as avaliações pendentes com técnicas de SEO local e ativar rotina simples para coletar 10 novas avaliações positivas de clientes satisfeitos.</li>
+    </ol>
+  </div>
+
+  <div class="footer">
+    <div>Diagnóstico técnico confidencial gerado a partir de dados públicos do Google Maps.</div>
+    <div>Página 1 de 1 &bull; Resumo Executivo para Tomada de Decisão</div>
+  </div>
+
+</body>
+</html>
